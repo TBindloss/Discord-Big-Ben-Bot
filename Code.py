@@ -33,14 +33,15 @@ async def hourly_bong():
         timezone = pytz.timezone(timezone_str)
     except pytz.UnknownTimeZoneError:
         print(f"Unknown timezone: {timezone_str}. Defaulting to 'Europe/London'.")
-        timezone = pytz.timezone('Europe/London')  # Fallback to a default timezone
+        timezone = pytz.timezone('Europe/London')
 
     now = datetime.now(timezone)
 
     if now.minute == 0:
         print(f"Time is {now.strftime('%H:%M')} - on the hour! Preparing to bong...")
-        current_hour = now.hour
-        print(f"Current hour: {current_hour}")
+    
+        current_hour = now.hour % 12 or 12
+        print(f"Current hour: {now.hour} (12-hour format: {current_hour}). Playing {current_hour} bongs.")
 
         guild = bot.guilds[0]
         voice_channel = discord.utils.get(guild.voice_channels, name=VOICE_CHANNEL_NAME)
@@ -62,7 +63,7 @@ async def hourly_bong():
                     print(f"Playing bong {count + 1} of {current_hour}...")
                     vc.play(discord.FFmpegPCMAudio(os.getenv('WAV_PATH')))
                     while vc.is_playing():
-                        await asyncio.sleep(1)
+                        await asyncio.sleep(0.1)
 
                 print("All bongs played. Disconnecting...")
                 await vc.disconnect()
