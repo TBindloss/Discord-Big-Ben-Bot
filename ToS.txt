@@ -1,0 +1,29 @@
+Terms of Service for Big Ben Discord Bot
+Last updated: 27/09/2024
+
+1. Acceptance of Terms
+By inviting and using the Big Ben Discord Bot (hereafter referred to as "the bot"), you agree to abide by these Terms of Service. If you do not agree with these terms, please do not use the bot.
+
+2. Bot Functionality
+The bot is designed to join a voice channel and play a sound at the top of each hour, provided there are users present in the voice channel. It does not store, log, or share any user or server information.
+
+3. User Responsibilities
+Server Management: You are responsible for managing the server settings where the bot is installed. This includes adding, removing, and configuring the bot.
+Compliance with Discord's Terms: You agree to comply with Discord’s Terms of Service and Community Guidelines. The bot should not be used for any malicious or harmful activities.
+4. Limitations of Use
+The bot is intended for personal and community use only. Commercial use of the bot is prohibited unless explicitly authorized by the bot owner.
+You may not modify, redistribute, or reverse engineer the bot’s code or functionalities.
+5. Termination
+The bot owner reserves the right to terminate or suspend access to the bot at any time, without prior notice, for conduct that violates these Terms of Service or is harmful to the bot, its users, or Discord.
+
+6. Disclaimers
+The bot is provided on an "as-is" basis without any warranties of any kind. The bot owner does not guarantee that the bot will function uninterrupted or error-free.
+The bot owner is not responsible for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use the bot.
+7. Changes to Terms
+The bot owner may update these Terms of Service from time to time. If there are significant changes, users will be notified through the bot's functionality or communication channels. Continued use of the bot after changes constitutes acceptance of the new Terms of Service.
+
+8. Contact Information
+For any questions or concerns regarding these Terms of Service, please contact the bot owner:
+
+Email: tbindloss@gmail.com
+By using the bot, you acknowledge that you have read, understood, and agree to these Terms of Service.

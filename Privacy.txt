@@ -1,0 +1,39 @@
+Last updated: 27/09/2024
+
+1. Introduction
+This Privacy Policy describes how the Big Ben Discord Bot (hereafter referred to as "the bot") collects, uses, and discloses information when it is used on Discord servers. By inviting and using the bot, you agree to the collection and use of information as described in this policy.
+
+2. Information We Collect
+The bot is designed to perform specific tasks such as joining a voice channel on a schedule and playing sound files based on server settings. The bot does not collect or store any personal information. However, in order to function correctly, it requires access to the following information:
+
+Voice Channel Information: The bot checks for members present in a voice channel to determine whether it should join and play sounds. This information is not stored or shared, and is used solely to make decisions at runtime.
+Guild (Server) Information: The bot receives details about the server, such as channel names and IDs, for the purpose of identifying the appropriate channels to operate in. This information is temporarily processed but not stored.
+The bot does not collect, log, or share the following data:
+
+Usernames, user IDs, or other personally identifiable information.
+Any messages or text content from the server or its members.
+Any voice data from members using the voice channels.
+3. How We Use Information
+The bot only uses the above information in the following ways:
+
+To identify when a voice channel has active users to determine whether it should join and play a sound.
+To access specific voice channels for performing the designated function of chiming on the hour.
+No data is stored, shared, or processed outside of these operational requirements.
+
+4. Third-Party Services
+The bot does not utilize any third-party services that require data sharing. All functionalities of the bot are handled within the Discord server and local environment.
+
+5. Data Retention and Security
+The bot does not store any information or data about servers, channels, or users. Once the bot completes its operations (such as playing a sound), it does not retain any server or user information.
+
+6. User Control and Rights
+You can remove the bot from your server at any time by using Discord’s built-in bot management features. When the bot is removed, it immediately loses access to your server and all associated information. Since the bot does not store data, no further action is needed to delete information.
+
+7. Changes to This Privacy Policy
+We may update this Privacy Policy from time to time. If there are significant changes, server owners will be notified through the Discord bot description or direct communication via the bot. Your continued use of the bot after any changes indicates your acceptance of the new policy.
+
+8. Contact Us
+If you have any questions or concerns about this Privacy Policy or the bot’s data usage, please contact the bot owner:
+
+Email: tbindloss@gmail.com
+By using the bot, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.
